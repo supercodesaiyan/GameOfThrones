@@ -1,0 +1,53 @@
+
+
+main{
+	width: 500px;
+	float:left;
+	padding-left:10px;
+	text-align:left;
+	padding-right:5px;
+    }
+main #first:first-letter{
+	font-weight:bold;
+	font-family:GameOfThrones;
+	font-size:200%;
+}
+main article{
+	width:650px;
+}
+main article h1{
+	position:relative;
+    text-align:center;
+    color:#2c3243 ;
+	top: 25px;
+	font-size:250%;
+}
+#rightside{
+	padding-top:25px;
+	padding-left:5px;
+	width:295 px;
+	height:830px;
+	float: right;
+	border-left: 1px ridge white;
+	background-color:black;
+	}
+
+#rightside h1{
+	font-family:GameOfThrones;
+	position:relative;
+	top: 10px;
+	color:#792427 ;
+	font-size:205%;
+	text-decoration:underline;
+}	
+#rightside p{
+	position:relative;
+	left:15px;
+	text-align:center;
+	color:white;
+	width:200px;
+	font-size:150%;
+}	
+
+
+

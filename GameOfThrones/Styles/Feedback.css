@@ -1,0 +1,92 @@
+
+
+main{
+	width: 400px;
+	float:left;
+	padding-left:10px;
+	text-align:left;
+    }
+main h1{
+	text-align:center;
+}
+main input, select,textarea{
+	width:250px;
+	
+}
+
+main form p{
+float:left;
+text-align:right;
+padding-left:30px;
+}
+main #Name{
+	position:relative;
+	left:37px;
+}
+main #Email{
+	position:relative;
+	left:40px;
+}
+main select{
+	position:relative;
+	left:5px;
+}
+main .start{
+	position:relative;
+	left:30px;
+}
+main #submit{
+	margin-left:150px;
+	width:180px;
+}
+main h1{
+	text-align:center;
+	font-size:200%;
+	position:relative;
+	left:140px;
+	text-decoration:underline;
+}
+main #hd{
+	text-align:left;
+	position:relative;
+	left:160px;
+}
+
+
+#rightside{
+	padding-top:25px;
+	padding-left:5px;
+	width:295 px;
+	height:830px;
+	float: right;
+	border-left: 1px ridge white;
+	background-color:black;
+	}
+
+#rightside h1{
+	text-align:center;
+	font-family:GameOfThrones;
+	position:relative;
+	top: 10px;
+	color:#792427 ;
+	font-size:205%;
+	text-decoration:underline;
+}	
+#rightside p{
+	position:relative;
+	left:15px;
+	text-align:center;
+	color:white;
+	width:200px;
+	font-size:150%;
+}	
+#rightside label{
+	color:white;
+}
+#rightside legend{
+	color:white;
+	
+}	
+
+
+

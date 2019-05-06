@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+		<head>
+			<meta charset="utf-8" />
+			<title>Game of Thrones</title>
+			<link rel="icon" type="image/ico" href="../Images/logo.jpg"> <!-- Source: 1. in Bibliography doc file in the root folder -->
+			<link rel="stylesheet" href="../Styles/normalize.css">
+			<link rel="stylesheet" href="../Styles/main.css">
+			<link rel="stylesheet" href="../Styles/Feedback.css">
+			
+		</head>
+		<body>
+		  <header>
+				<img src="../Images/VM.jpg" alt="Valar Morghulis Logo" width="150px" height="150px" id="logo" > <!-- Source: 2. in Bibliography doc file in the root folder -->
+				<h1>Game Of Thrones</h1>
+		  </header>
+		  
+			<nav id="nav_menu">
+				<ul>
+					<li><a href="../pages/index.html" >Home</a></li>
+					<li><a href="../pages/table.html">Characters</a>
+							<ul>
+									<li><a href="">House Starks</a>
+										<ul>
+												<li><a href="../pages/table.html">Eddard Stark</a></li>
+												<li><a href="../pages/table.html">Catelyn Stark</a></li>
+												<li><a href="../pages/table.html">Robb Stark</a></li>
+										</ul>
+									</li>
+									<li><a href="../pages/table.html">House Lannister</a>
+										<ul>
+												<li><a href="../pages/table.html">Cersei Lannister</a></li>
+												<li><a href="../pages/table.html">Tywin Lannister</a></li>
+												<li><a href="../pages/table.html">Jaime Lannister</a></li>
+										</ul>
+									</li>
+									<li><a href="">House Targaryen</a>
+											<ul>
+													<li><a href="../pages/table.html">Aemon Targaryen</a></li>
+													<li><a href="../pages/table.html">Rhaegar Targaryen</a></li>
+													<li><a href="../pages/table.html">Aegon Targaryen</a></li>
+											</ul>
+									</li>	
+							</ul>
+					</li>
+					<li><a href="pages/actors.html">Actors</a></li>
+					<li><a href="../pages/Feedback.html" class="current">Feedback</a></li>
+				</ul>
+			</nav>	
+
+
+		  <aside id="leftside">
+				<nav id="nav_list">
+					<ul>
+						<li><a href="../pages/index.html"><img src="../Images/hm.jpg "  alt="Home" width="200" height="150" id="img1"></a></li> <!-- Source: 3. in Bibliography doc file in the root folder -->
+						<li><a href="../pages/table.html"><img src="../Images/GOT2.jpg " alt="Characters" width="200" height="150" id="img2"></a></li> <!-- Source: 4. in Bibliography doc file in the root folder -->
+						<li><a href="../pages/Feedback.html"><img src="../Images/GOT4.jpg "  alt="Feedback" width="200" height="150" id="img3"></a></li> <!-- Source: 5. in Bibliography doc file in the root folder -->
+					</ul>
+				</nav>
+		  </aside>	
+		  <main>
+				<br><br><h1>Feedback</h1>
+				<p id=hd> Please provide your feedback about our website. </p>
+				<form id="feedback_form" action="subscribe.php" method="post">
+					<p><span class="start">Name:</span><input type="text" id="Name" autofocus></p>
+					<p><span class="start">Email:</span><input type="text" id="Email" placeholder="abc@email.com"></p>
+					<p>Character:
+							<select>
+									<optgroup label="Starks">
+										<option value="st1"> Eddard "Ned" Stark </option>
+										<option value="st1"> Jon Snow </option>
+										<option value="st3"> Robb Stark </option>
+										<option value="st4"> Arya Stark </option>
+										<option value="st5"> Bran Stark </option>
+									</optgroup>		
+									<optgroup label="Lannisters">>
+										<option value="ln1"> Cersei Lannister </option>
+										<option value="ln2"> Tyrion Lannister	 </option>
+										<option value="ln3"> Tywin Lannister </option>
+										<option value="ln4"> Jaime Lannister </option>
+									</optgroup>		
+											
+									<optgroup label="Others">
+										<option value="oth1"> Khal Drogo </option>
+										<option value="oth2"> Petyr "Littlefinger" Baelish </option>
+										<option value="oth3"> Bronn </option>
+										<option value="oth4"> Tormund Giantsbane </option>
+										<option value="oth5"> Ramsay Bolton </option>
+									</optgroup>				
+							</select>
+					</p>
+					<p><span id="lb">Rate Us:</span>
+						<select size="3" multiple>
+							<option value="">*****</option>
+							<option value="">****</option>
+							<option value="">***</option>
+							<option value="">**</option>
+							<option value="">*</option>
+							
+						</select>
+					</p>
+								
+					<p>Comments:<textarea id="comments"  placeholder=" If you have any comments, please enter them here." ></textarea></p> 
+						 
+					<input type="submit" id="submit" value="Submit Feedback">	
+				</form>
+		  </main>
+		   <aside id="rightside" >
+				<h1>Survey</h1>	
+				<form>
+				<fieldset>
+				<legend>&diams;Favorite Season</legend>
+				<input type="radio" name="seas" id="seas1" value="Season1" checked>
+				<label for ="seas1">SEASON I</label><br>
+				<input type="radio" name="seas" id="seas2" value="Season2">
+				<label for ="seas2">SEASON II</label><br>
+				<input type="radio" name="seas" id="seas3" value="Season3">
+				<label for ="seas3">SEASON III</label><br>
+				<input type="radio" name="seas" id="seas4" value="Season4">
+				<label for ="seas4">SEASON IV</label><br>
+				<input type="radio" name="seas" id="seas5" value="Season5">
+				<label for ="seas5">SEASON V</label><br>
+				<input type="radio" name="seas" id="seas6" value="Season6">
+				<label for ="seas6">SEASON VI</label><br>
+				<input type="radio" name="seas" id="seas7" value="Season7">
+				<label for ="seas7">SEASON VII</label><br>
+				</fieldset><br>
+				<fieldset>		
+				<br><legend>&diams;Who all will survive Season VIII?</legend>
+				<input type="checkbox" name="surv" id="surv1" value="Tyrion">
+				<label for ="seas1">Tyrion Lannister</label><br>
+				<input type="checkbox" name="surv" id="surv2" value="Jon">
+				<label for ="seas2">Jon Snow</label><br>
+				<input type="checkbox" name="surv" id="surv3" value="Arya">
+				<label for ="seas3">Arya Stark </label><br>
+				<input type="checkbox" name="surv" id="surv4" value="Cersei">
+				<label for ="seas4">Cersei Lannister</label><br>
+				<input type="checkbox" name="surv" id="surv5" value="Jaime">
+				<label for ="seas5">Jaime Lannister</label><br>
+				<input type="checkbox" name="surv" id="surv6" value="Daenerys">
+				<label for ="seas6">Daenerys Targaryen</label><br>
+				</fieldset>
+				<p><input type="submit" id="submit" value="Submit">&nbsp &nbsp 
+				<input type="reset" id="reset" value="Clear"></p>
+				</form>
+					
+			
+			</aside>
+		   <footer>
+			<p>&copy; 2019 Sachin MS</p>
+		  </footer>
+
+		</body>
+</html>	

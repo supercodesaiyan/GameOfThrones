@@ -1,0 +1,63 @@
+
+
+main{
+	font-family:GameOfThrones;
+	width: 500px;
+	float:left;
+	margin-top:10px;
+	padding-left:15px;
+	text-align:left;
+    }
+main figcaption{
+	text-align:center;
+	color:#792427 ;
+	font-size:200%;
+	padding-left:150px;
+	
+}
+main table{
+	border: 3px solid black;
+}
+main td{	
+    border: 1px solid black;
+	padding: .2em .7em;
+	text-align:left;
+}
+main th{
+    border: 1px solid black;
+	padding: .2em .7em;
+	text-align:center;
+}
+
+main thead{
+	background-color:#ffbd1b;
+}
+#rightside{
+	padding-top:25px;
+	padding-left:5px;
+	width:295 px;
+	height:830px;
+	float: right;
+	border-left: 1px ridge white;
+	background-color:black;
+	}
+
+#rightside h1{
+	font-family:GameOfThrones;
+	position:relative;
+	top: 10px;
+	color:#792427 ;
+	font-size:205%;
+	text-decoration:underline;
+}	
+#rightside p{
+	position:relative;
+	left:15px;
+	text-align:center;
+	color:white;
+	width:200px;
+	font-size:150%;
+}	
+
+
+
